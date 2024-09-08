@@ -20,7 +20,7 @@ export default function Page() {
 
             {/* Skyline Image */}
             <Image
-                src={"/skyline.png"}
+                src={"./skyline.png"}
                 alt="NYC skyline"
                 width={1000}
                 height={700}
@@ -48,7 +48,7 @@ export default function Page() {
             {/* Manager Signature */}
             <div className="flex flex-col items-end p-8 mb-10">
                 <Image 
-                    src={"/sign.png"}
+                    src={"./sign.png"}
                     alt="Our manager signature"
                     width={700}
                     height={400}
