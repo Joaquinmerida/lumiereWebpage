@@ -36,7 +36,7 @@ export function Footer() {
                     <div className="flex justify-evenly w-2/3 md:w-1/2">
                         <Link target='_blank' href='https://www.instagram.com/'>
                             <Image
-                                src="/igLogo.png"
+                                src="./igLogo.png"
                                 width={50}
                                 height={50}
                                 alt="Instagram logo"
@@ -45,7 +45,7 @@ export function Footer() {
                         </Link>
                         <Link target='_blank' href='https://www.facebook.com/'>
                             <Image
-                                src="/fbLogo.png"
+                                src="./fbLogo.png"
                                 width={50}
                                 height={50}
                                 alt="Facebook logo"
@@ -54,7 +54,7 @@ export function Footer() {
                         </Link>
                         <Link target='_blank' href='https://www.x.com/'>
                             <Image
-                                src="/xLogo.png"
+                                src="./xLogo.png"
                                 width={50}
                                 height={50}
                                 alt="X logo"

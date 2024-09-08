@@ -7,7 +7,7 @@ export default function Page() {
       {/* Image Container */}
       <div className="relative w-full h-[600px]">
         <Image
-          src="/chefImage.webp"
+          src="./chefImage.webp"
           alt="Photo of our restaurant"
           fill
           style={{
@@ -27,21 +27,21 @@ export default function Page() {
       {/* Main Images */}
       <div className="flex justify-between items-center w-full px-4 py-4">
         <Image
-          src="/fruits.webp"
+          src="./fruits.webp"
           alt="Photo of fresh vegetables"
           width={300}
           height={600}
           className="object-cover w-[calc(100%/3.236)] aspect-[1/1.618]"
         />
         <Image
-          src="/tuna.png"
+          src="./tuna.png"
           alt="Photo of fresh tuna"
           width={300}
           height={600}
           className="object-cover w-[calc(100%/3.236)] aspect-[1/1.618]"
         />
         <Image
-          src="/pasta.webp"
+          src="./pasta.webp"
           alt="Photo of fresh pasta"
           width={300}
           height={600}
@@ -111,7 +111,7 @@ export default function Page() {
         {/* Image Section */}
         <div className="w-full md:w-1/3 px-4 mt-8 md:mt-0">
           <Image
-            src="/wineGlass.webp"
+            src="./wineGlass.webp"
             width={500}
             height={500}
             alt="An exquisite dish with a wine glass."

@@ -6,7 +6,7 @@ export default function Page() {
             {/* Background Image */}
             <div className="absolute left-0 w-full h-auto z-[-1] overflow-hidden">
                 <Image
-                    src="/backgroundMap.webp"
+                    src="./backgroundMap.webp"
                     alt="NYC Map"
                     height={2000}
                     width={1903}

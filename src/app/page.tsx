@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <div className="relative w-full h-[60vh]">
         <Image
-          src="/landingPhoto.png"
+          src="./landingPhoto.png"
           alt="Photo of our restaurant"
           layout="fill"
           objectFit="cover"
@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className={`${antic.className} text-3xl font-semibold`}>About Us</h2>
           <hr className="border-t-2 border-gray-300 mt-2 mb-6 mx-auto md:mx-0" />
           <Image
-            src="/aboutUsImage.svg"
+            src="./aboutUsImage.svg"
             alt="Image of our chef working with food."
             width={960}
             height={500}
@@ -45,7 +45,7 @@ export default function Home() {
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
           <li className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4 w-full">
             <Image
-              src="/diamondIcon.png"
+              src="./diamondIcon.png"
               alt="Small image of a diamond"
               width={50}
               height={50}
@@ -61,7 +61,7 @@ export default function Home() {
 
           <li className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4 w-full">
             <Image
-              src="/diamondIcon.png"
+              src="./diamondIcon.png"
               alt="Small image of a diamond"
               width={50}
               height={50}
@@ -77,7 +77,7 @@ export default function Home() {
 
           <li className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4 w-full">
             <Image
-              src="/diamondIcon.png"
+              src="./diamondIcon.png"
               alt="Small image of a diamond"
               width={50}
               height={50}
@@ -93,7 +93,7 @@ export default function Home() {
 
           <li className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4 w-full">
             <Image
-              src="/diamondIcon.png"
+              src="./diamondIcon.png"
               alt="Small image of a diamond"
               width={50}
               height={50}
@@ -115,7 +115,7 @@ export default function Home() {
           <h2 className={`${antic.className} text-center text-3xl font-semibold`}>Private Events</h2>
           <hr className="border-t-2 border-gray-300 mt-2 mb-6 mx-auto md:mx-0" />
           <Image
-            src="/events.png"
+            src="./events.png"
             alt="Image of our chef working with food."
             width={1900}
             height={1080}

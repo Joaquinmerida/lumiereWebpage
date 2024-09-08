@@ -36,7 +36,7 @@ export default function Page() {
     <main className="flex flex-col items-center">
       <div className="relative w-full h-[500px] overflow-hidden brightness-90">
         <Image
-          src="/events.webp"
+          src="./events.webp"
           alt="Photo of our restaurant"
           fill
           style={{
@@ -99,7 +99,7 @@ export default function Page() {
           </CardHeader>
           <CardContent className="flex flex-col items-center">
             <Image
-              src="/calendar.png"
+              src="./calendar.png"
               alt="Calendar icon."
               width={120}
               height={120}
@@ -120,7 +120,7 @@ export default function Page() {
           </CardHeader>
           <CardContent className="flex flex-col items-center">
             <Image
-              src="/clothes.png"
+              src="./clothes.png"
               alt="Dressing code icon."
               width={120}
               height={120}
