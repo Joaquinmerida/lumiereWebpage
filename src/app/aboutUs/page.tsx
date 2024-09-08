@@ -33,7 +33,7 @@ export default function Page() {
                 <hr className="w-[90%] my-4" />
                 <h2 className="text-xl py-8">Our Story</h2>
                 <p className="w-[100%] mb-8">
-                    Founded in 2003 by renowned chef Marcus Bennett, Lumière was born from a passion for haute cuisine and a desire to create a dining destination that celebrates the finest ingredients and culinary techniques. Chef Bennett's vision was to establish a restaurant where each dish is crafted with precision and artistry, and where guests can savor the true essence of culinary excellence.
+                    Founded in 2003 by renowned chef Marcus Bennett, Lumière was born from a passion for haute cuisine and a desire to create a dining destination that celebrates the finest ingredients and culinary techniques. Chef Bennetts vision was to establish a restaurant where each dish is crafted with precision and artistry, and where guests can savor the true essence of culinary excellence.
                 </p>
                 <h2 className="text-xl py-8">Our Philosophy</h2>
                 <p className="w-[100%] mb-8">
