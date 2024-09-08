@@ -6,7 +6,6 @@ import { NavBar } from "./Navbar";
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
-      {/* Image Container */}
       <div className="relative w-full h-[60vh]">
         <Image
           src="/landingPhoto.png"
@@ -19,11 +18,11 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black opacity-50"></div>
       </div>
       {/* Section Overlay */}
-      <section className="absolute top-[30%] left-[5%] w-[90%] md:w-[40%] md:left-[5%] md:top-[20%] text-white text-center md:text-left">
+      <section className="absolute top-[30%] left-[5%] w-[90%] md:w-[50%] lg:w-[40%] md:left-[5%] md:top-[20%] text-white text-center md:text-left">
         <h1 className={`${antic.className} text-4xl md:text-7xl font-bold`}>
           Lumière
         </h1>
-        <p className={`${antic.className} mt-4 text-lg md:text-base w-full md:w-1/2`}>
+        <p className={`${antic.className} mt-4 text-lg w-full`}>
           Located in the heart of New York City, our restaurant offers a culinary experience that blends sophistication, luxury, and exceptional taste. Our mission is to provide our guests with an unforgettable dining experience that tantalizes the senses and elevates the soul.
         </p>
       </section>
